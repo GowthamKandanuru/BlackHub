@@ -25,9 +25,9 @@ public class Base {
 		lp = PageFactory.initElements(driver,Login_Page.class);
 	}
 	
-	/*public void Wait()
+	public static void close()
 	{
-		wait.until(ExpectedConditions.elementToBeClickable(lp.login));
-	}*/
+		driver.quit();
+	}
 
 }

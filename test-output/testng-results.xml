@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="48222" started-at="2020-05-14T12:04:26Z" finished-at="2020-05-14T12:05:15Z">
+  <suite name="Suite" duration-ms="57597" started-at="2020-05-14T13:48:29Z" finished-at="2020-05-14T13:49:27Z">
     <groups>
     </groups>
-    <test name="CRMTest" duration-ms="48222" started-at="2020-05-14T12:04:26Z" finished-at="2020-05-14T12:05:15Z">
+    <test name="CRMTest" duration-ms="57597" started-at="2020-05-14T13:48:29Z" finished-at="2020-05-14T13:49:27Z">
       <class name="Login_Scenario.Validate_Login_TC">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Login_Scenario.Validate_Login_TC@1ce4f0a]" name="beforeTest" is-config="true" duration-ms="17591" started-at="2020-05-14T12:04:26Z" finished-at="2020-05-14T12:04:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Login_Scenario.Validate_Login_TC@1ce4f0a]" name="beforeTest" is-config="true" duration-ms="22188" started-at="2020-05-14T13:48:29Z" finished-at="2020-05-14T13:48:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Login_Scenario.Validate_Login_TC@1ce4f0a]" name="LoginTest" duration-ms="30550" started-at="2020-05-14T12:04:44Z" finished-at="2020-05-14T12:05:15Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Login_Scenario.Validate_Login_TC@1ce4f0a]" name="LoginTest" duration-ms="22490" started-at="2020-05-14T13:48:51Z" finished-at="2020-05-14T13:49:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Login_Scenario.Validate_Login_TC@1ce4f0a]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-05-14T12:05:15Z" finished-at="2020-05-14T12:05:15Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Login_Scenario.Validate_Login_TC@1ce4f0a]" name="afterTest" is-config="true" duration-ms="12852" started-at="2020-05-14T13:49:14Z" finished-at="2020-05-14T13:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

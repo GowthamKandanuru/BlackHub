@@ -13,5 +13,10 @@ public class LoginPage extends Base{
 		lp.login.click();
 		//wait.until(ExpectedConditions.elementToBeClickable(lp.login));
 	}
+	
+	public void closeBrowser()
+	{
+		Base.close();
+	}
 
 }
