@@ -11,7 +11,11 @@ public class LoginPage extends Base{
 		driver.get("https://www.freecrm.com/");
 		wait.until(ExpectedConditions.visibilityOf(lp.login));
 		lp.login.click();
-		//wait.until(ExpectedConditions.elementToBeClickable(lp.login));
+		lp.email.sendKeys(properties.getUsername());
+		lp.password.sendKeys(properties.getPassword());
+		lp.submit.click();
+		//wait.until(ExpectedConditions.visibilityOf(lp.home));
+		lp.home.click();
 	}
 	
 	public void closeBrowser()

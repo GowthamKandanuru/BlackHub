@@ -22,7 +22,7 @@ public class Validate_Login_TC {
 
   @AfterTest
   public void afterTest() {
-	  lp.closeBrowser();  
+	 // lp.closeBrowser();  
   }
 
 }
