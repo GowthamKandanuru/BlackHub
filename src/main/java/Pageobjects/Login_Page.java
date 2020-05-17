@@ -17,6 +17,7 @@ public class Login_Page {
 	@FindBy(xpath="//div[text()='Login']")
 	public WebElement submit;
 	
-	@FindBy(xpath="//div[@id='main-nav']/a[1]")
-	public WebElement home;
+	@FindBy(xpath="//div[@id='main-nav']/a[4]")
+	public WebElement companies;
+	
 }

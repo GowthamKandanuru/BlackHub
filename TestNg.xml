@@ -3,11 +3,17 @@
 
 <suite thread-count="1" verbose="1" name="Suite" annotations="JDK"
 	parallel="tests">
-
-	<test name="CRMTest">
+	
+	<test name="LoginTest">
 		<packages>
-			<package name="Login_Scenario">
-			</package>
+		 <package name="Login_Scenario" />
 		</packages>
 	</test>
+	
+	<test name="companies">
+		<packages>
+		<package name="companies" />
+		</packages>
+	</test>
+	
 </suite>

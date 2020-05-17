@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="1" name="CRMTest(failed)" parallel="tests">
+  <test thread-count="1" name="companies(failed)" parallel="tests">
     <classes>
-      <class name="Login_Scenario.Validate_Login_TC">
+      <class name="companies.Validate_Companies_TC">
         <methods>
-          <include name="LoginTest"/>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="verifyAdd"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- Login_Scenario.Validate_Login_TC -->
+      </class> <!-- companies.Validate_Companies_TC -->
     </classes>
-  </test> <!-- CRMTest(failed) -->
+  </test> <!-- companies(failed) -->
 </suite> <!-- Failed suite [Suite] -->

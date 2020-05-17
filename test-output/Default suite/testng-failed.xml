@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login_Scenario.Validate_Login_TC">
+      <class name="companies.Validate_Companies_TC">
         <methods>
-          <include name="LoginTest"/>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="verifyAdd"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- Login_Scenario.Validate_Login_TC -->
+      </class> <!-- companies.Validate_Companies_TC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
