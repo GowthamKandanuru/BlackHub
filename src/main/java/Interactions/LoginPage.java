@@ -26,7 +26,6 @@ public class LoginPage {
 		driver = Base.getDriver();
 		lp = PageFactory.initElements(driver,Login_Page.class);
 		driver.get("https://www.freecrm.com/");
-		System.out.println("count"+""+i++);
 		Base.waitMethod().until(ExpectedConditions.visibilityOf(lp.login));
 		lp.login.click();
 		lp.email.sendKeys(properties.getUsername());
@@ -36,7 +35,7 @@ public class LoginPage {
 	
 	public void closeBrowser()
 	{
-		Base.close();
+		driver.close();
 	}
 
 }

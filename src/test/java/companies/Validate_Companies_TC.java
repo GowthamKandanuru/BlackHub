@@ -21,7 +21,7 @@ public class Validate_Companies_TC {
 
 	  @AfterTest
 	  public void afterTest() {
-		 // cs.closeBrowser();  
+		  cs.closeBrowser();  
 	  }
 	
 }

@@ -43,11 +43,21 @@ public class CompanySection {
 		}
 		Base.waitMethod().until(ExpectedConditions.visibilityOf(com.name));
 		com.name.sendKeys("LTI");
+		com.streetaddress.sendKeys("Whitefield KIADB Estate");
+		com.ctry.click();
+		com.text.sendKeys("India");
+		com.india.click();
+		com.city.sendKeys("bangalore");
+		com.State.sendKeys("Karnataka");
+		com.Zipcode.sendKeys("517501");
+		com.social.click();
+		com.facebook.click();
+		com.save.click();
 	}
 	
 	public void closeBrowser()
 	{
-		Base.close();
+		driver.close();
 	}
 
 }
